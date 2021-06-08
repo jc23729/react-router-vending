@@ -1,6 +1,6 @@
 import React from "react";
 
-function Eat() {
+function Sardines() {
   return (
     <div>
       <h1>NOM NOM NOM</h1>
@@ -13,4 +13,4 @@ function Eat() {
   );
 }
 
-export default Eat;
+export default Sardines;
