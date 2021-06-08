@@ -1,7 +1,7 @@
 import React from "react";
 
 import Home from "./Home";
-import Chips from "./Chips";
+import Eat from "./Eat";
 import Drink from "./Drink";
 import NavBar from "./NavBar";
 

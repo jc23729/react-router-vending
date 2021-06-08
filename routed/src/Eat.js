@@ -1,6 +1,6 @@
 import React from "react";
 
-function Chips() {
+function Eat() {
   return (
     <div>
       <h1>NOM NOM NOM</h1>
@@ -13,4 +13,4 @@ function Chips() {
   );
 }
 
-export default Chips;
+export default Eat;
