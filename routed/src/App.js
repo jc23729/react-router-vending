@@ -6,17 +6,17 @@ function App() {
   };
 
   const showPage = () => {
-    if (page === "home") return <Home />;
-    if (page === "eat") return <Eat />;
-    if (page === "drink") return <Drink />;
+    if (page === "chips") return <Home />;
+    if (page === "Sardines") return <Eat />;
+    if (page === "Soda") return <Drink />;
   };
 
   return (
     <main>
       <nav>
-        <a onClick={() => goToPage("drink")}>Drink</a>
-        <a onClick={() => goToPage("eat")}>Eat</a>
-        <a onClick={() => goToPage("home")}>Home</a>
+        <a onClick={() => goToPage("chips")}>Drink</a>
+        <a onClick={() => goToPage("Sardines")}>Eat</a>
+        <a onClick={() => goToPage("Soda")}>Home</a>
       </nav>
       {showPage()}
     </main>
@@ -25,29 +25,3 @@ function App() {
 
 
 export default App;
-
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
